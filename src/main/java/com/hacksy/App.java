@@ -20,6 +20,7 @@ public class App
                 new StaleCollectionEvaluator(catalog);
 
         // Processors for our publish and unpublish object arrays
+        // Would likely be implemented as StreamingObjectProcessor or something for real use
         ObjectProcessor<ISBNIdentifiable> publisher =
                 new ObjectProcessor<ISBNIdentifiable>(stdOutPublisher, staleCollectionEvaluator);
 
