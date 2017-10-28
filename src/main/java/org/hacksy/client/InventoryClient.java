@@ -1,7 +1,7 @@
-package com.hacksy.client;
+package org.hacksy.client;
 
-import com.hacksy.model.Book;
-import com.hacksy.model.ISBN;
+import org.hacksy.model.Book;
+import org.hacksy.model.ISBN;
 
 public class InventoryClient {
     private Book[] inventory = new Book[]{

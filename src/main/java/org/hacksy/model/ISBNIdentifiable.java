@@ -1,4 +1,4 @@
-package com.hacksy.model;
+package org.hacksy.model;
 
 // An ISBN uniquely represents each edition and variation of a book.
 public interface ISBNIdentifiable {

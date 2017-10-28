@@ -1,4 +1,4 @@
-package com.hacksy.model;
+package org.hacksy.model;
 
 import org.junit.Test;
 

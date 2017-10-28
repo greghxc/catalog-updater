@@ -1,9 +1,4 @@
-package com.hacksy;
-
-import lombok.Data;
-import lombok.NonNull;
-
-import java.util.List;
+package org.hacksy;
 
 public class ObjectProcessor<T> {
     private ObjectActor<T>[] actors;

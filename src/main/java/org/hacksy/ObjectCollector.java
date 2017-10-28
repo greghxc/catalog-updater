@@ -1,4 +1,4 @@
-package com.hacksy;
+package org.hacksy;
 
 import java.util.Collection;
 

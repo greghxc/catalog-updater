@@ -1,6 +1,6 @@
-package com.hacksy;
+package org.hacksy;
 
-import com.hacksy.model.ISBNIdentifiable;
+import org.hacksy.model.ISBNIdentifiable;
 
 import java.util.*;
 

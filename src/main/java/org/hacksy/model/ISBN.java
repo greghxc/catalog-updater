@@ -1,9 +1,9 @@
-package com.hacksy.model;
+package org.hacksy.model;
 
 import java.util.Objects;
 
 public class ISBN implements ISBNIdentifiable {
-    private String ISBNString;
+    final private String ISBNString;
 
     public ISBN(String ISBNString) {
         this.ISBNString = ISBNString;

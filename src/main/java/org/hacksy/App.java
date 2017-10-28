@@ -1,10 +1,10 @@
-package com.hacksy;
+package org.hacksy;
 
-import com.hacksy.client.CatalogClient;
-import com.hacksy.client.InventoryClient;
-import com.hacksy.model.Book;
-import com.hacksy.model.CatalogEntry;
-import com.hacksy.model.ISBNIdentifiable;
+import org.hacksy.client.CatalogClient;
+import org.hacksy.client.InventoryClient;
+import org.hacksy.model.Book;
+import org.hacksy.model.CatalogEntry;
+import org.hacksy.model.ISBNIdentifiable;
 
 public class App
 {

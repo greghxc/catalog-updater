@@ -1,7 +1,7 @@
-package com.hacksy.client;
+package org.hacksy.client;
 
-import com.hacksy.model.CatalogEntry;
-import com.hacksy.model.ISBN;
+import org.hacksy.model.CatalogEntry;
+import org.hacksy.model.ISBN;
 
 public class CatalogClient {
     private CatalogEntry[] catalog = new CatalogEntry[] {
