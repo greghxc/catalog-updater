@@ -4,7 +4,7 @@ import com.hacksy.model.ISBNIdentifiable;
 
 import java.util.*;
 
-public class StaleCollectionEvaluator implements Collector<ISBNIdentifiable>, ObjectActor<ISBNIdentifiable> {
+public class StaleCollectionEvaluator implements ObjectCollector<ISBNIdentifiable>, ObjectActor<ISBNIdentifiable> {
     private Set<ISBNIdentifiable> potentiallyStaleISBNS;
 
     public StaleCollectionEvaluator(ISBNIdentifiable[] existingIdentifiables) {

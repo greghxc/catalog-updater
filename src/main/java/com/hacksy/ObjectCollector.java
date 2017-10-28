@@ -2,6 +2,6 @@ package com.hacksy;
 
 import java.util.Collection;
 
-public interface Collector<T> {
+public interface ObjectCollector<T> {
     T[] getCollected();
 }
