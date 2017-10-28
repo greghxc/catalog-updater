@@ -9,14 +9,17 @@ import com.hacksy.model.ISBNIdentifiable;
 public class App
 {
     public static void main( String[] args ) {
-        StdOutPublisher stdOutPublisher = new StdOutPublisher<ISBNIdentifiable>();
-
         CatalogEntry[] catalog = getCatalog();
         Book[] inventory = getInventory();
 
+        // Stand in for a SNS publisher or whatever
+        StdOutPublisher stdOutPublisher = new StdOutPublisher<ISBNIdentifiable>();
+
+        // Implements both actor and collector
         StaleCollectionEvaluator staleCollectionEvaluator =
                 new StaleCollectionEvaluator(catalog);
 
+        // Processors for our publish and unpublish object arrays
         ObjectProcessor<ISBNIdentifiable> publisher =
                 new ObjectProcessor<ISBNIdentifiable>(stdOutPublisher, staleCollectionEvaluator);
 
